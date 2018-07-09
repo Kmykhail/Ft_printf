@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kmykhail <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -18,6 +18,7 @@
 # include <stdarg.h>
 # include <stddef.h>
 # include <locale.h>
+# include <stdint.h>
 
 # define MINUS		ft_strchr(pr->str_flag, '-')
 # define PLUS		ft_strchr(pr->str_flag, '+')
