@@ -9,7 +9,7 @@ $> gcc libftprintf.a main.c && ./a.out
 ```
 # Examples
 ```
-#include "ft_printf.h"
+#include "ft_printf/ft_printf.h"
 int main()
 {
   ft_printf("Hello world\n");
